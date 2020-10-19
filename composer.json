@@ -2,6 +2,15 @@
     "name": "fitnesshouse/fh-request-server",
     "version": "1.0.0",
     "description": "Fitness House Request Server",
+    "license": "MIT",
+    "homepage": "https://github.com/fhcs/fh-request-server",
+    "authors": [
+        {
+            "name": "Mikhaylov.V",
+            "email": "mihailov.v@fhclub.ru"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
         "php": "^7.2",
         "vladmeh/rabbitmq-client": "^1.0"
@@ -10,12 +19,21 @@
         "phpunit/phpunit": "^7.0|^8.0",
         "orchestra/testbench": "^4.0"
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mikhaylov.V",
-            "email": "mihailov.v@fhclub.ru"
+    "autoload": {
+        "psr-4": {
+            "Fh\\RequestServer\\": "src/"
         }
-    ],
-    "minimum-stability": "dev"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fh\\RequestServer\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fh\\RequestServer\\FhRequestServerProvider"
+            ]
+        }
+    }
 }
