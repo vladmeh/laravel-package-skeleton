@@ -1,9 +1,9 @@
 {
-    "name": "fitnesshouse/fh-request-server",
+    "name": "vladmeh/package-name",
     "version": "1.0.0",
-    "description": "Fitness House Request Server",
+    "description": "Description package",
     "license": "MIT",
-    "homepage": "https://github.com/fhcs/fh-request-server",
+    "homepage": "",
     "authors": [
         {
             "name": "Mikhaylov.V",
@@ -21,18 +21,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Fh\\RequestServer\\": "src/"
+            "Vladmeh\\Package\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fh\\RequestServer\\Tests\\": "tests/"
+            "Vladmeh\\Package\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Fh\\RequestServer\\FhRequestServerProvider"
+                "Vladmeh\\Package\\PackageServiceProvider"
             ]
         }
     }
