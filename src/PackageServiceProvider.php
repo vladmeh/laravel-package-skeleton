@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Vladmeh\Package;
-
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +9,8 @@ class PackageServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/config.php', 'package'
+            __DIR__.'/../config/config.php',
+            'package'
         );
     }
 
@@ -27,5 +26,4 @@ class PackageServiceProvider extends ServiceProvider
 //            ], 'package-migrations');
         }
     }
-
 }
