@@ -1,5 +1,12 @@
 # laravel-package-skeleton
 
+## Introduction
+
+Laravel Packages Skeleton
+
+https://laravelpackage.com
+https://github.com/orchestral/testbench
+
 ## Usage
 
 ```shell script

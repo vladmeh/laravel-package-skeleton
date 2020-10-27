@@ -1,6 +1,6 @@
 {
     "name": "vladmeh/laravel-package-skeleton",
-    "version": "6.1",
+    "version": "6.2",
     "description": "Description package",
     "license": "MIT",
     "homepage": "https://github.com/vladmeh/laravel-package-skeleton",
@@ -12,8 +12,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.2",
-        "vladmeh/rabbitmq-client": "^1.0"
+        "php": "^7.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0|^8.0",
