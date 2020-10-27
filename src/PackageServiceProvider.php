@@ -11,7 +11,7 @@ class PackageServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/config.php', 'package'
+            __DIR__.'/../config/config.php', 'package'
         );
     }
 
@@ -19,7 +19,7 @@ class PackageServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../config/config.php' => config_path('package.php'),
+                __DIR__.'/../config/config.php' => config_path('package.php'),
             ], 'package-config');
 
 //            $this->publishes([
@@ -27,4 +27,5 @@ class PackageServiceProvider extends ServiceProvider
 //            ], 'package-migrations');
         }
     }
+
 }

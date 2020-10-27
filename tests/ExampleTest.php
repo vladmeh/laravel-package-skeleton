@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Vladmeh\Package\Tests;
-
 
 class ExampleTest extends TestCase
 {
@@ -13,4 +11,5 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
 }
