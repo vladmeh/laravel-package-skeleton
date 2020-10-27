@@ -1,16 +1,16 @@
 {
     "name": "vladmeh/laravel-package-skeleton",
-    "version": "6.0",
+    "version": "6.1",
     "description": "Description package",
     "license": "MIT",
-    "homepage": "",
+    "homepage": "https://github.com/vladmeh/laravel-package-skeleton",
     "authors": [
         {
             "name": "Mikhaylov.V",
             "email": "mihailov.v@fhclub.ru"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": "^7.2",
         "vladmeh/rabbitmq-client": "^1.0"
