@@ -1,5 +1,7 @@
 <?php
 
+namespace Vladmeh\Package\Tests;
+
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use Vladmeh\Package\PackageServiceProvider;
 
