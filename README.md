@@ -1,1 +1,1 @@
-# fh-request-server
+# laravel-package-skeleton
