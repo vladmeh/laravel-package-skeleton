@@ -1,5 +1,5 @@
 {
-    "name": "vladmeh/package-name",
+    "name": "vladmeh/laravel-package-skeleton",
     "version": "6.0",
     "description": "Description package",
     "license": "MIT",
