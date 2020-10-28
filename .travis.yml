@@ -14,7 +14,7 @@ before_install:
   - composer config discard-changes true
 
 before_script:
-  - travis_retry composer install --prefer-dist --no-interaction --no-suggest
+  - travis_retry composer update --no-progress --prefer-dist
 
 script:
   - vendor/bin/phpunit -c phpunit.xml --testdox --verbose
