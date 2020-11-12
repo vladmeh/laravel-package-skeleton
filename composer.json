@@ -1,6 +1,6 @@
 {
     "name": "vladmeh/laravel-package-skeleton",
-    "version": "6.3",
+    "version": "6.4",
     "description": "Description package",
     "license": "MIT",
     "keywords": ["laravel", "packages"],
