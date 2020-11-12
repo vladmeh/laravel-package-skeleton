@@ -18,5 +18,5 @@ https://github.com/orchestral/testbench
 ## Usage
 
 ```shell script
-composer create-project vladmeh/laravel-package-sckeleton your-path "6.*"
+composer create-project vladmeh/laravel-package-skeleton your-path "6.*"
 ```
