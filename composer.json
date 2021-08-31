@@ -1,6 +1,5 @@
 {
     "name": "vladmeh/laravel-package-skeleton",
-    "version": "6.5",
     "description": "Description package",
     "license": "MIT",
     "keywords": ["laravel", "packages"],
@@ -34,6 +33,9 @@
             "providers": [
                 "Vladmeh\\Package\\PackageServiceProvider"
             ]
+        },
+        "branch-alias": {
+            "dev-main": "7.x-dev"
         }
     }
 }
